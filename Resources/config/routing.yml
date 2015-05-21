@@ -1,0 +1,8 @@
+mmd_google_webfonts_cache_homepage:
+    path:     /
+    defaults: { _controller: MmdGoogleWebfontsCacheBundle:Default:index }
+mmd_google_webfonts_cache_requests:
+    path:     /{path}
+    defaults: { _controller: MmdGoogleWebfontsCacheBundle:Default:api }
+    requirements:
+            path: .+

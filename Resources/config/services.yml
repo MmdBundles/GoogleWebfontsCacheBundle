@@ -1,0 +1,12 @@
+parameters:
+    mmd_google_webfonts_cache.key: "# overwite this in app/parameters.yml"
+
+    mmd_google_webfonts_cache.redis.scheme: 'tcp'
+    mmd_google_webfonts_cache.redis.host: '127.0.0.1'
+    mmd_google_webfonts_cache.redis.port: 6379
+    mmd_google_webfonts_cache.redis.options: {} # https://github.com/nrk/predis#client-configuration
+
+services:
+#    mmd_google_webfonts_cache.example:
+#        class: Mmd\Bundle\GoogleWebfontsCacheBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]
